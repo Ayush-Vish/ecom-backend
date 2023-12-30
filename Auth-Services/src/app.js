@@ -4,6 +4,8 @@ import session from "express-session";
 
 import cors from "cors";
 
+
+
 import userRoute from "./Routes/user.routes.js";
 import passport from "passport";
 import morgan from "morgan";
@@ -34,7 +36,6 @@ app.use(bodyParser.json()) ;
 
 app.use("/user" , userRoute);
 
-// app.use("/api/v1/socket/" , socketRoutes);
 
 
 

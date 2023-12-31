@@ -2,7 +2,7 @@ import {Strategy} from "passport-google-oauth2"
 import passport from "passport";
 import dotenv from "dotenv";
 import userModel from "../models/user.model.js";
-import Apperror from "../utils/Apiresponse.util.js";
+import Apperror from "../../Auth-Services/src/utils/Apiresponse.util.js";
 dotenv.config() ; 
 
 const GoogleStrategy = Strategy;
